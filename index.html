@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Missão Backoffice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🚧 Missão: Conciliação de Pedágio</h1>
+    <p>Um cliente contestou uma cobrança duplicada. O que você faz?</p>
+    <div id="quiz">
+      <button onclick="responder(0)">A) Ignora e fecha o chamado</button>
+      <button onclick="responder(1)">B) Verifica o histórico de transações</button>
+      <button onclick="responder(2)">C) Reembolsa sem verificar</button>
+      <button onclick="responder(3)">D) Encaminha para outro setor sem contexto</button>
+    </div>
+    <p id="feedback"></p>
+    <p id="pontuacao">Pontuação: 0</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
