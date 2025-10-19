@@ -3,38 +3,70 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Missão Backoffice - Aprendizagem por Gamificação</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+  <title>🛣️BackOffice Rodovias - Aprendizagem 🛣️</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
- <h1>🎮 Central de Jogos – Aprendizagem Backoffice</h1>
+
+  <header><!-- inicio Cabeçalho -->
+      <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+        <div class="container">
+          
+          <a href="#" class="navbar-brand">
+            <img src="midia/img/logo.png" width="142">
+          </a>
+
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="nav-principal">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Recursos</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Benefícios</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+    </header><!--/fim Cabecalho -->
+
+    
+
+
+ <h1 align="center" id="titulo">🛣️ BackOffice Rodovias - Aprendizagem 🛣️</h1>
+
     <p>Escolha um dos jogos abaixo para começar sua missão:</p>
 
     <div class="links">
-      <a href="https://www.educaplay.com/learning-resources/25014496-processos_de_rodovias_parte_1.html" target="_blank">🧾 Processos de Rodovia</a>
-
-      <a href="https://seujogo2.github.io" target="_blank">📞 Conciliação de Pedágio/a>
-      <a href="https://seujogo2.github.io" target="_blank">📞 Atendimento ao Cliente</a>
-      <a href="https://seujogo3.github.io" target="_blank">🛣️ Gestão de Ocorrências</a>
+      <a href="https://www.educaplay.com/learning-resources/25014496-processos_de_rodovias_parte_1.html" target="_blank">🧾 Processos de Rodovias</a><br>
+      <a href="https://wordwall.net/pt/resource/77762421/categoria-x-tipo-de-ve%c3%adculo" target="_blank">Correção de Categoria</a><br>
+      <a href="missao_backoffice.html" target="_blank">📞 Missão BackOffice</a><br>
+      <a href="atendimento-cliente.html" target="_blank">📞 Atendimento ao Cliente</a><br>
+      <a href="#" target="_blank">🛣️ Gestão de Ocorrências</a><br>
     </div>
 
+<h2> Trilha de Estudos </h2>
+ 📌 Se você deseja obter conhecimentos sobre processos de pedágio e rodovias, segue aqui uma pequena trilha para te auxiliar nesse caminho.
 
 
 
-  <div class="container">
-    <h1>🚧 Missão: Conciliação de Pedágio</h1>
-    <p>Um cliente contestou uma cobrança duplicada. O que você faz?</p>
-    <div id="quiz">
-      <button onclick="responder(0)">A) Ignora e fecha o chamado</button>
-      <button onclick="responder(1)">B) Verifica o histórico de transações</button>
-      <button onclick="responder(2)">C) Reembolsa sem verificar</button>
-      <button onclick="responder(3)">D) Encaminha para outro setor sem contexto</button>
-    </div>
-    <p id="feedback"></p>
-    <p id="pontuacao">Pontuação: 0</p>
-  </div>
-  <script src="script.js"></script>
 
 
 
